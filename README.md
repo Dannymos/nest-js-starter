@@ -19,7 +19,7 @@ rimraf
 sqlite/sqlite3  
 typeorm 
 
-##Dev-dependencies:  
+## Dev-dependencies:  
 jest  
 prettier  
 eslint  
