@@ -1,0 +1,8 @@
+entity: example
+items:
+  example0:
+    field1: "TE"
+    field2: "testlanguage"
+  example1:
+    field1: "NL"
+    field2: "nederlands"
