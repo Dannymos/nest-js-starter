@@ -1,50 +1,35 @@
 
-## Tasklist.io
+## Nest-js starter
 
-[![Build Status]()]()
-[![Coverage Status]()]()
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-[![Maintainability Rating]()]()
-[![Quality Gate Status]()]()
-[![Bugs]()]()
-[![Code Smells]()]()
-[![Reliability Rating]()]()
-[![Security Rating]()]()
-[![Vulnerabilities]()]()
-[![Hotel](https://img.shields.io/badge/Hotel-Trivago-success)](https://img.shields.io/badge/Hotel-Trivago-success)
 
 ## Description
 
-This project makes use of the [Nest.js](https://nestjs.com/) framework.
+This starter project makes use of the [Nest.js](https://nestjs.com/) framework.
 A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
-And used [Nest.js TypeScript starter](https://github.com/nestjs/typescript-starter) as a boiler plate.
 
-Requires MYSQL to be installed and MYSQL server to be running.
+## Dependencies
+nest-js  
+class-transformer  
+class-validator  
+Coveralls  
+mysql  
+reflect-metadata  
+rimraf  
+sqlite/sqlite3  
+typeorm 
 
-Includes the following packages:
-nest-js
-class-transformer
-class-validator
-Coveralls
-mysql
-reflect-metadata
-rimraf
-sqlite/sqlite3
-typeorm
-
-dev-dependencies:
-jest
-prettier
-eslint
-socket.io-client
-supertest
-ts-jest
-ts-loader
-ts-node
-typeorm-fixtures-cli
-typescript
-
-Sonarcloud analysis: https://sonarcloud.io/dashboard?id=Dannymos_bep-lingogame
+##Dev-dependencies:  
+jest  
+prettier  
+eslint  
+socket.io-client  
+supertest  
+ts-jest  
+ts-loader  
+ts-node  
+typeorm-fixtures-cli  
+typescript  
 
 ## Installation
 
@@ -52,9 +37,15 @@ Sonarcloud analysis: https://sonarcloud.io/dashboard?id=Dannymos_bep-lingogame
 $ npm install
 ```
 
+If you are going to use the coveralls command to check code coverage, you need to configure coveralls for your repository.     
+
+If you are going to use Travis CI for your build pipeline, you need to configure Travis CI and the `travis.yml` file for your repository.
+
 ## Running the app
 
-Configure the .env file first
+Requires MYSQL to be installed and MYSQL server to be running if using out of the box config.  
+Requires the `.env` file to be configured with the Database credentials.
+
 
 ```bash
 # development
